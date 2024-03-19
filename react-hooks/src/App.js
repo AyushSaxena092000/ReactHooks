@@ -5,6 +5,7 @@ import EffectTutorial from "../src/components/UseEffect/EffectTutorial";
 import ContextTutorial from "./components/UseContext/ContextTutorial";
 import ReducerTutorial from "./components/UseReducer/ReducerTutorial";
 import MemoTutorial from "./components/UseMemo/MemoTutorial";
+import CallbackTutorial from "./components/UseCallback/CallbackTutorial";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <EffectTutorial /> */}
       {/* <ContextTutorial /> */}
       {/* <ReducerTutorial /> */}
-      <MemoTutorial />
+      {/* <MemoTutorial /> */}
+      <CallbackTutorial/>
     </div>
   );
 }
