@@ -7,6 +7,7 @@ import ReducerTutorial from "./components/UseReducer/ReducerTutorial";
 import MemoTutorial from "./components/UseMemo/MemoTutorial";
 import CallbackTutorial from "./components/UseCallback/CallbackTutorial";
 import UseMemo from "./components/UseMemo/UseMemo";
+import RefTutorial from "./components/UseRef/RefTutorial";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <ReducerTutorial /> */}
       {/* <MemoTutorial /> */}
       {/* <CallbackTutorial/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <RefTutorial/>
     </div>
   );
 }
