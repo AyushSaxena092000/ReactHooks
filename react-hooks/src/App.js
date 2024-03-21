@@ -8,6 +8,7 @@ import MemoTutorial from "./components/UseMemo/MemoTutorial";
 import CallbackTutorial from "./components/UseCallback/CallbackTutorial";
 import UseMemo from "./components/UseMemo/UseMemo";
 import RefTutorial from "./components/UseRef/RefTutorial";
+import CustomHooks from "./components/UseCustomHooks/CustomHooks";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <MemoTutorial /> */}
       {/* <CallbackTutorial/> */}
       {/* <UseMemo/> */}
-      <RefTutorial/>
+      {/* <RefTutorial/> */}
+      <CustomHooks />
     </div>
   );
 }
